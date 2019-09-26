@@ -1,24 +1,42 @@
 body {
     text-align: center;
-    background-color: gray;
+    background-color: black;
   }
-
+img {
+    max-width:15%;
+    height:auto;
+}
 p {
     text-align: center;
     margin-top: 1px;
+    margin-bottom: 1px;
     color: black;
 }
 h1 {
+    background-color: black;
     text-align: center;
     margin-bottom: 1px;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 h2{
-    color: black;
+    color: lightskyblue;
+    background-color:darkred;
     text-align: center;
 }
 ul {
-    text-align: center;
+    color: black;
+    text-align: left;
 
+}
+.container {
+    width: 60%;
+    margin: auto;
+    border: 3px solid black;
+    background-color: white;
+}
+.experience {
+    color: lightskyblue;
+    background-color:darkturquoise;
+    text-align: center;
 }
